@@ -14,6 +14,9 @@ function Change() {
     <button className='h-10 px-6 mx-3 font-semibold rounded-md bg-black text-white' onClick={()=>{
         setVal((prev)=>prev+1)
     }}>increase</button>
+        <button className='h-10 px-6 mx-3 font-semibold rounded-md bg-black text-white' onClick={()=>{
+        setVal((prev)=>prev-1)
+    }}>descrement</button>
     </div>
     </>
 
